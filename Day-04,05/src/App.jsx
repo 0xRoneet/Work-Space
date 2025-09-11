@@ -6,6 +6,9 @@ import Practice from './Practice'
 import PropApp from './PropApp'
 import GencClassComponent from './GencClassComponent'
 import ReactLifeCycle from './ReactLifeCycle'
+import UseStateDemo  from '../../Day-06/UseStateDemo'
+import UseEffectDemo from '../../Day-06/UseEffectDemo'
+
 function App() {
  
    const cohortObj = {
@@ -19,7 +22,11 @@ function App() {
       {/* <Practice /> */}
       {/* <PropApp /> */}
       {/* <GencClassComponent cohortDetails={cohortObj} /> */}
-      <ReactLifeCycle/>
+      {/* <ReactLifeCycle/> */}
+
+      <UseStateDemo/>
+      <UseEffectDemo/>
+
     </>
   )
 }
