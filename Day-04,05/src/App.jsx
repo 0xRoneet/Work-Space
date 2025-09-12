@@ -8,6 +8,7 @@ import GencClassComponent from './GencClassComponent'
 import ReactLifeCycle from './ReactLifeCycle'
 import UseStateDemo  from '../../Day-06/UseStateDemo'
 import UseEffectDemo from '../../Day-06/UseEffectDemo'
+import UseStateNext from '../../Day-07/UseStateNext'
 
 function App() {
  
@@ -24,8 +25,9 @@ function App() {
       {/* <GencClassComponent cohortDetails={cohortObj} /> */}
       {/* <ReactLifeCycle/> */}
 
-      <UseStateDemo/>
-      <UseEffectDemo/>
+      {/* <UseStateDemo/>
+      <UseEffectDemo/> */}
+      <UseStateNext/>
 
     </>
   )
