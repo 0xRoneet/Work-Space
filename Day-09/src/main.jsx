@@ -14,6 +14,7 @@ import FormikDemo from "./components/FormikDemo.jsx";
 import { BrowserRouter } from "react-router-dom";
 import GenCApp from "./GenCApp.jsx";
 import "./GenCApp.css"  
+import UseRefDemo from "./components/UseRefDemo.jsx";
 
 
 
@@ -24,8 +25,9 @@ createRoot(document.getElementById("root")).render(
     {/* <FormikDemo/> */}
     {/* <ReactLifeCycle/> */}
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <GenCApp></GenCApp>
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <UseRefDemo />
   </StrictMode>
 );
